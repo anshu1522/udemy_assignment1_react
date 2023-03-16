@@ -1,0 +1,83 @@
+.mainMenu:hover,
+nav.mainMenu.expanded {
+  width: 350px;
+  overflow: visible;
+}
+
+.active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0 10px 6px;
+  height: 40px;
+
+  background: #6359e9;
+  border-radius: 10px;
+}
+
+.mainMenu {
+  background: #212121;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  width: 120px;
+  overflow: hidden;
+  transition: left 0.4s ease-in-out;
+  -o-transition: left 0.4s ease-in-out;
+  -ms-transition: left 0.4s ease-in-out;
+  -moz-transition: left 0.4s ease-in-out;
+  -webkit-transition: left 0.4s ease-in-out;
+  z-index: 1000;
+}
+
+.mainMenu .nav-icon {
+  position: relative;
+  display: table-cell;
+  height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.125rem;
+}
+
+.mainMenu .navText {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 190px;
+}
+
+.darkMode {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconFlex {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  /* margin-bottom: 10px; */
+}
+
+.imgFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.border {
+  height: 1px;
+  background-color: #4b4b99;
+  border: none;
+}
+
+.sideFlex {
+  height: 100vh;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 40px;
+}
